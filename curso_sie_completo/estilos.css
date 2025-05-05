@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    scroll-behavior: smooth;
+  }
+  
+  .card {
+    border-radius: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    font-weight: 700;
+    color: #1a237e;
+  }
+  
+  .btn-primary {
+    background-color: #1a237e;
+    border-color: #1a237e;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3949ab;
+    border-color: #3949ab;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  
+  .animate__animated {
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeIn {
+    animation-name: fadeIn;
+  }
+
+  
