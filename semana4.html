@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Semana 4</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(-45deg, #283048, #859398, #1e3c72, #2a5298);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #f2f2f2;
+      line-height: 1.6;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background: rgba(0, 0, 0, 0.65);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #aeeaff;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    strong {
+      color: #ffe96c;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 30px;
+      background-color: #00b4d8;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    a.back-link:hover {
+      background-color: #0077b6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Semana 4: Infraestructura de TI, modelos de despliegue y tipos de infraestructura</h1>
+    <img src="images/semana4.jpg" alt="Infraestructura de TI">
+    <h2>Objetivos</h2>
+    <ul>
+      <li>Reconocer los componentes y modelos de infraestructura de TI.</li>
+    </ul>
+    <h2>Contenidos</h2>
+    <ul>
+      <li><strong>Hardware:</strong> Componentes físicos como servidores, computadoras, routers y switches.</li>
+      <li><strong>Redes:</strong> Tipos de redes (LAN, WAN, WLAN) y protocolos de comunicación.</li>
+      <li><strong>Virtualización:</strong> Tecnología que permite crear entornos virtuales en un solo hardware físico.</li>
+      <li><strong>Modelos de despliegue:</strong>
+        <ul>
+          <li><strong>On-premise:</strong> Infraestructura local gestionada por la empresa.</li>
+          <li><strong>Cloud:</strong> Infraestructura externa gestionada por proveedores y accesible vía Internet.</li>
+        </ul>
+      </li>
+    </ul>
+    <h2>Actividades</h2>
+    <ul>
+      <li>Diseño de una arquitectura de TI para un negocio ficticio.</li>
+      <li>Comparación de ventajas y desventajas de los modelos on-premise y cloud.</li>
+    </ul>
+    <a href="index.html" class="back-link">Volver a la página principal</a>
+  </div>
+</body>
+</html>

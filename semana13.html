@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Semana 13</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(-45deg, #2c3e50, #4ca1af, #2c3e50, #000000);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background: rgba(0, 0, 0, 0.65);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #ffe98a;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    strong {
+      color: #90e0ef;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 30px;
+      background-color: #00b4d8;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    a.back-link:hover {
+      background-color: #0077b6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Semana 13: Ciclo de vida del desarrollo de sistemas y metodologías asociadas</h1>
+    <img src="https://play.pokemonshowdown.com/sprites/ani/exeggutor.gif" alt="Ciclo de Vida del Desarrollo de Sistemas">
+
+    <h2>Objetivos</h2>
+    <ul>
+      <li>Conocer las fases del ciclo de vida del desarrollo de sistemas (SDLC).</li>
+      <li>Entender las principales metodologías de desarrollo de software (ágiles, cascada, etc.).</li>
+      <li>Comparar las ventajas y desventajas de diferentes metodologías.</li>
+    </ul>
+
+    <h2>Contenidos</h2>
+    <ul>
+      <li>
+        <strong>Ciclo de Vida del Desarrollo de Sistemas (SDLC):</strong>
+        El SDLC define los pasos necesarios para desarrollar un sistema. Fases clave:
+        <ul>
+          <li><strong>Planificación:</strong> Objetivos y alcance del proyecto.</li>
+          <li><strong>Análisis de Requisitos:</strong> Necesidades y funcionalidades.</li>
+          <li><strong>Diseño:</strong> Arquitectura y especificaciones técnicas.</li>
+          <li><strong>Desarrollo:</strong> Codificación del sistema.</li>
+          <li><strong>Pruebas:</strong> Verificación funcional.</li>
+          <li><strong>Implementación:</strong> Despliegue del sistema.</li>
+          <li><strong>Mantenimiento:</strong> Soporte y mejoras continuas.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Metodologías de Desarrollo de Software:</strong>
+        Enfoques variados con distintos niveles de flexibilidad:
+        <ul>
+          <li><strong>Waterfall:</strong> Lineal y secuencial. Ideal para proyectos bien definidos.</li>
+          <li><strong>Ágiles:</strong> Iterativas y adaptativas. Scrum, Kanban, XP, etc.</li>
+          <li><strong>DevOps:</strong> Combina desarrollo y operaciones para mayor eficiencia.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Herramientas de Desarrollo:</strong>
+        Facilitadores clave para equipos modernos:
+        <ul>
+          <li><strong>IDEs:</strong> Visual Studio Code, IntelliJ IDEA, Eclipse.</li>
+          <li><strong>Control de Versiones:</strong> Git, GitHub, GitLab.</li>
+          <li><strong>Automatización de Pruebas:</strong> Selenium, JUnit, Postman.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Actividades</h2>
+    <ul>
+      <li>
+        <strong>Comparación de Metodologías:</strong> Tabla entre Waterfall y Scrum. Incluir ventajas, desventajas y escenarios.
+      </li>
+      <li>
+        <strong>Diagrama de Fases del SDLC:</strong> Crear un gráfico con descripciones breves de cada etapa.
+      </li>
+    </ul>
+
+    <a href="index.html" class="back-link">Volver a la página principal</a>
+  </div>
+</body>
+</html>
